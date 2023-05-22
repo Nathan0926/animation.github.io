@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<style>
+*{margin: 0;
+padding: 0;}
+body{
+background:grey;
+
+}
+.container {
+  width: 10px;
+  height: 10px;
+  margin-left: 40%;
+  margin-top: 30%;
+color: red;
+}
+#amation{
+  width: 50px;
+  height: 500px;
+  position: relative;
+  animation-name: example;
+  animation-duration:55s;
+ border: 10px solid;
+  animation-iteration-count: infinite; 
+}
+#amation2{
+  width: 500px;
+  height: 50px;
+  position: relative;
+  animation-name: example2;
+  animation-duration: 55s;
+ border: 10px solid;
+  animation-iteration-count: infinite;
+}
+#amation3{
+  width: 200px;
+  height: 50px;
+  position: relative;
+  animation-name: example3;
+  animation-duration: 55s;
+ border: 10px solid;
+  animation-iteration-count: infinite;
+}
+#amation4{
+  width: 50px;
+  height: 200px;
+  position: relative;
+  animation-name: example4;
+  animation-duration: 55s;
+ border: 10px solid;
+  animation-iteration-count: infinite;
+}
+#amation5{
+  width: 50px;
+  height: 200px;
+  position: relative;
+  animation-name: example5;
+  animation-duration: 55s;
+ border: 10px solid;
+  animation-iteration-count: infinite;
+}
+#amation6{
+  width: 50px;
+  height: 200px;
+  position: relative;
+  animation-name: example6;
+  animation-duration: 55s;
+ border: 10px solid red;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes example {
+  0% {transform: rotateZ(-200deg);left: 2px; top: 4px; }     
+  5% {transform:rotateZ(10deg);}
+  10%{ width:300px;border-color: aqua;}
+  20% {border-color: white;}
+  30% {border-radius: 10px; width: 50px; height: 10px;}
+  40% {width: 60px;  height: 200px; border-radius: 10px;}
+  60%  {transform: rotateZ(-90deg); border-color: blue;}
+  65% {left: 2px; top: 1px; }
+  75% {border-radius: 0px; width: 70px; height: 70px; border-style: solid dotted dotted solid;}
+  80% {width:400px ; width: 20px;}
+  85%  {width: 30px; height:300px ; border-radius:200px ; border-color: green; }
+  90% {width: 200px; height: 10px; border-radius: 10px; }
+100% { width: 50px; height: 500px; transform: rotateZ(-200deg);}
+}
+@keyframes example2 {
+  0% {transform: rotateZ(-200deg);left: 2px; top: 4px;}     
+  10%{ width:300px;border-color: aqua;border-style: double dashed dotted solid;}
+  30% {border-radius: 10px; width: 50px; height: 100px;}
+  60%  {transform: rotateZ(-90deg); border-color: blue;}
+  100% {width: 500px; height: 50px;  transform: rotateZ(-200deg);border-right-width: 200px;}
+}
+@keyframes example3 {
+  5% {transform:rotateZ(-10deg);}
+  20% {border-color: white;}
+  40% {width: 60px;  height: 200px; border-radius: 10px;}
+  65% {left: 4px; top: 1px;border-style: double dashed dotted solid; }
+  80% {width:200px ; height: 20px;}
+  100% {width: 100px; height: 50px; transform: rotateZ(-200deg);}
+}
+@keyframes example4 {
+  5% {transform:rotateZ(-10deg);}
+  10%{ width:200px;border-color: aqua;}
+  20% {border-color: white;}
+  40% {width: 60px;  height: 200px; border-radius: 10px;}
+  60%  {transform: rotateZ(-90deg); border-color: blue; border-style: double dashed dotted solid;}
+  65% {left: 4px; top: 1px; }
+  80% {width:200px ; height: 20px;}
+  85%  {width: 30px; height:00px ; border-radius:200px ; border-color: green; }
+  100% {width: 50px; height: 200px; transform: rotateZ(-200deg);}
+}
+@keyframes example5 {
+  10%{ width:300px;border-color: aqua;}
+  40% {width: 60px;  height: 200px; border-radius: 10px;border-style: double dashed dotted solid;}
+  75% {border-radius: 0px; width: 70px; height: 70px;}
+  90% {width: 200px; height: 10px; border-radius: 10px; }
+100% { width: 50px; height: 500px; transform: rotateZ(-200deg);}
+}
+@keyframes example6 {
+  10%{ width:300px;border-color: red;border-style: solid dashed dotted dashed;}
+  30% {border: 20px solid; rotate: 200deg;}
+  40% {width: 60px;  height: 200px; border-radius: 10px;}
+  75% {border-radius: 0px; width: 70px; height: 70px;}
+  90% {width: 200px; height: 10px; border-radius: 10px; }
+100% { width: 50px; height: 500px; transform: rotateZ(-200deg);}
+}
+</style>
+<body>
+<div class="container">
+  <div id="amation">
+<div id="amation2">
+  <div id="amation3">
+<div id="amation4">
+  <div id="amation5">
+    <div id="amation6"></div>
+    <div id="amation">
+      <div id="amation2">
+        <div id="amation3">
+      <div id="amation4">
+        <div id="amation5">
+          <div id="amation6"></div>
+          <div id="amation">
+            <div id="amation2">
+              <div id="amation3">
+            <div id="amation4">
+              <div id="amation5">
+                <div id="amation6"></div>
+                <div id="amation">
+                  <div id="amation2">
+                    <div id="amation3">
+                  <div id="amation4">
+                    <div id="amation5">
+                      <div id="amation6"></div>
+                      <div id="amation">
+                        <div id="amation2">
+                          <div id="amation3">
+                        <div id="amation4">
+                          <div id="amation5">
+                            <div id="amation6"></div>
+                            <div id="amation">
+                              <div id="amation2">
+                                <div id="amation3">
+                              <div id="amation4">
+                                <div id="amation5">
+                                  <div id="amation6"></div>
+                                  <div id="amation">
+                                    <div id="amation2">
+                                      <div id="amation3">
+                                    <div id="amation4">
+                                      <div id="amation5">
+                                        <div id="amation6"></div>
+                                        <div id="amation">
+                                          <div id="amation2">
+                                            <div id="amation3">
+                                          <div id="amation4">
+                                            <div id="amation5">
+                                              <div id="amation6"></div>
+                                              <div id="amation">
+                                                <div id="amation2">
+                                                  <div id="amation3">
+                                                <div id="amation4">
+                                                  <div id="amation5">
+                                                    <div id="amation6"></div>
+                                                    <div id="amation">
+                                                      <div id="amation2">
+                                                        <div id="amation3">
+                                                      <div id="amation4">
+                                                        <div id="amation5">
+                                                          <div id="amation6"></div>
+                                                          <div id="amation">
+                                                            <div id="amation2">
+                                                              <div id="amation3">
+                                                            <div id="amation4">
+                                                              <div id="amation5">
+                                                                <div id="amation6"></div>
+                                                                <div id="amation">
+                                                                  <div id="amation2">
+                                                                    <div id="amation3">
+                                                                  <div id="amation4">
+                                                                    <div id="amation5">
+                                                                      <div id="amation6"></div>
+                                                                      <div id="amation">
+                                                                        <div id="amation2">
+                                                                          <div id="amation3">
+                                                                        <div id="amation4">
+                                                                          <div id="amation5">
+                                                                            <div id="amation6"></div>
+                                                                        
+                                                                        </div>
+                                                                          </div>
+                                                                        </div>
+                                                                        </div>
+                                                                        </div>
+                                                                  </div>
+                                                                    </div>
+                                                                  </div>
+                                                                  </div>
+                                                                  </div>
+                                                            </div>
+                                                              </div>
+                                                            </div>
+                                                            </div>
+                                                            </div>
+                                                      </div>
+                                                        </div>
+                                                      </div>
+                                                      </div>
+                                                      </div>
+                                                </div>
+                                                  </div>
+                                                </div>
+                                                </div>
+                                                </div>
+                                          </div>
+                                            </div>
+                                          </div>
+                                          </div>
+                                          </div>
+                                    </div>
+                                      </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                              </div>
+                                </div>
+                              </div>
+                              </div>
+                              </div>
+                        </div>
+                          </div>
+                        </div>
+                        </div>
+                        </div>
+                  </div>
+                    </div>
+                  </div>
+                  </div>
+                  </div>
+            </div>
+              </div>
+            </div>
+            </div>
+            </div>
+      </div>
+        </div>
+      </div>
+      </div>
+      </div>
+</div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
